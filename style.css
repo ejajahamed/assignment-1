@@ -16,7 +16,7 @@ main{
 .banner-top{
     max-width: 1320px;
     margin: auto;
-    background: #0702119d url(/resources/Banner\ Image.png);
+    background: #0702119d url(resources/banner-image.png);
     background-blend-mode: overlay;
     height: 600px;
     background-repeat: no-repeat;
