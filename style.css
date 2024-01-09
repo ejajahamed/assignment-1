@@ -14,6 +14,8 @@ main{
     margin: auto;
 }
 .banner-top{
+    max-width: 1320px;
+    margin: auto;
     background: #0702119d url(/resources/Banner\ Image.png);
     background-blend-mode: overlay;
     height: 600px;
@@ -155,15 +157,9 @@ p span{
     border-radius: 50%;
     padding: 20px;
   }
-  .holiday-images{
-    display: flex;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(240,0,0,1) 50%); 
-  }
-
-
-  .holiday-images .image-right{
-    position: relative;
+  .holiday-images img{
+    width: 100%
+ 
   }
 
   .right-images2 {
@@ -186,6 +182,8 @@ p span{
     border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 padding: 80px;
+margin-top: 120px;
+margin-bottom: 120px;
   }
 
   .subcribe-newsletter-container input{
@@ -216,3 +214,16 @@ padding: 80px;
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .footer-middle{
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .footer-bottom{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
