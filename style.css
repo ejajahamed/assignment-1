@@ -2,7 +2,9 @@
 h1,h2,h3,h4,h5,h6{
 font-family: 'Merriweather', serif;
 }
-
+hr{
+    color:#fafafa;
+}
 body{
 
     font-family: 'Inter', sans-serif;
@@ -75,7 +77,7 @@ margin: 0;
 }
 .welcome-to-party-container{
     padding: 125px;
-    background-image: url(/resources/2024image.jpg);
+    background-image: url(resources/2024image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
